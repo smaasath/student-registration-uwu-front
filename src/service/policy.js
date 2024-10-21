@@ -1,4 +1,4 @@
-import HttpInterceptor from "../../service/http-interceptor";
+import HttpInterceptor from "./http-interceptor";
 
 
 const http = new HttpInterceptor();

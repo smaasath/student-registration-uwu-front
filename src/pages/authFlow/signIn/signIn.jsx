@@ -2,9 +2,9 @@ import { Link, useNavigate } from "react-router-dom";
 import CommonButton from "../../../components/common/commonButton/commonButton";
 import AuthLayout from "../../../components/layouts/authLayout/authLayout";
 import { useDispatch } from "react-redux";
-import { userLogin } from "../../../redux/actions/user";
 import React, { useEffect, useState } from 'react';
 import { EmailValidation } from "../../../utils/valitations/Valitation";
+import { userLogin } from "../../../service/user";
 
 
 

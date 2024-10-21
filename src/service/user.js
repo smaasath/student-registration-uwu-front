@@ -1,6 +1,6 @@
-import HttpInterceptor from "../../service/http-interceptor";
+
 import Cookies from "js-cookie";
-import { userData } from "../reducers/userSlice";
+import HttpInterceptor from "./http-interceptor";
 
 const http = new HttpInterceptor();
 
